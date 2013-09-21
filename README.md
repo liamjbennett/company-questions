@@ -37,14 +37,18 @@ Do they know what Continous Delivery (CD) is? If not then back away very slowly.
 ####What are your thoughts on the roles of Build/Release engineer, DevOps, DevTools etc – are they the same or different?####
 This question is attempting to dig into what the role really is. Titles are ultimately a pointless label given out in organsiations and are not something that is every equal from one organisation to the next. Build engineers can either be junior employees who spend their whole day merging branching and building packages or they can be cross-domain jacks-of-all-trades who can adapt to many roles. DevTools is another common title appearing where build and release engineering is evoling to being more about providing tools for the whole business to use. **Ask about DevOps** - if this is in the job title then they have got it all wrong. You may find DevOps in the job description, it's become a bit of a shorthand but it shouldn't be in the title beause you can also guantee that it means that the hiring manager or C-level exec thinks that they can "buy the DevOps".
 
+####How many teams do you have and what do they do?####
+A start-up will probably have one team of a few guys who do everything development and operations related. As the company grows teams will naturally form, either around technical speciailities or around functional product areas. Which of theses in your company? Do you have a Ops team, a database team, front-end developers and backend-developers? How are they orgnaised? Are they in the same location? Or do you have cross-functional teams? How does this effect the communication and the productivity of the business?
+
 ##Product
 ####Can you give me a 10,000ft view of your infrastructure and architecture####
+A lot of companies will not want to share all the details of their infrastucture and the tools that they use because they believe it to be part of the "secret sauce" but hopefully you will be able to get the 10,000ft view -- the rough 5min outline. Are they bare-metal or AWS? 3-tier or multi-tier? Postgres or Mysql? Get a rough idea of what your walking into and if your skills match and if you want to move in that direction. Hopefully the company will be able to tell you all about their infrastrcuture because it's really nothing special these days - there is a limit set of hardware vendors, software vendors and open source projects.
 
 ####What is the best thing about your product/process/infrastructure?####
+What is the best thing you have? Why should I be exicited about the company? What makes your culture different? Have you released any tools open source that you want to brag about? What makes your product so much better than your competitors?
 
 ####What is the worst thing about your product/process/infrastructure?#### 
-
-####How many teams do you have and what do they do?####
+This is the tougher question. What work does the company still have to do? What is difficult? Are their any limiting constrints on your company that you need to try and address and/or manage in a unique way. Do you have legacy infrastrcutre that you wish would just die? Do you have a product that you have to support that was written 15 years ago and is scary to change?
 
 ##Process
 ####Can you explain your build pipeline?####
