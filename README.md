@@ -52,24 +52,30 @@ This is the tougher question. What work does the company still have to do? What 
 
 ##Process
 ####Can you explain your build pipeline?
+What stages are there? What checks and permissions are there? Is your pipeline cross-project? How does your pipeline integrate with the overall business pipeline? Is it growing, is it scaling? What is missing?
 
 ####What is your open source policy?
+Do you even have one? What is your policy for using open source software? Do you audit it, do you control it at build time? What is your policy for releasing software into open source? How do you determine the corporate sensitivity of the code your write and if it is appropriate or not to open source? Is your code really that special?
 
 ####Do you do code-review and/or pair programming?
+This is not just about code quality but it's about education and team building. Juniors learning from Seniors. Assumptions being broken and mistakes being avoiding. It takes time, is hard to do and some companies avoid it because of that. Is this something you care about as an employee? How does the company manage this process without it being too heavy-weight?
 
 ####What is your test coverage?
+Ok, this is a bit of a trick question. If the response in 90%+ then be very suspicious because the quality of these tests might not be as good at they think it is. Also test coverage is really only about unit tests so want you really want to know is how many of your user stories/workflows have been tested. It is good to know that they care about this stuff but make sure that they care about the right thing and are not just chasing some theorical number that they belive that should have.
 
 ####What is your average build time?
+If they know the answer to this at all then thats great but it doesn't really mean a huge amount unless then can quantitfy it in relation to the rest of their build pipeline. Build times can vary widely from projec-to-project and from one technology to another but the important thing is that they know builds should be < 10 mins to be useful and that they care about this.
 
 ####How often do you release?
-
-####Do you use feature flags? If so how many do you have active/in-progress at any time?
+This is the **BIG** million dollar question. Nothing matters unless it is relased to customers - it has zero value. How often do they deploy code? It is faster or does deployment also equal release? Deployments that are once a month are not useful for anyone and usually mean big painful cruch-time the few-days before. Also even if your deploying once a day and do a big release effort once a month that is still a painful thing to do and a lot of feature flags to maintain. If they don't do any of these things then this is a clear sign that you are moving into a "legacy" organisation and unless you honestly believe you can change this then you need to move on to another job opperunity.
 
 ##Tools
 
 ####What monitoring solution do you use?
+I don't care which. I just want to know you have one and discuss how you use it. Is it scaling? Do you have actions that are triggered by checks so that I don't have to make up at 3am and deal with something? How is your monitoring evolving? What should be a check and what shouldn't be? How does this integrate with your software testing effort?
 
 ####What is your configuration management solution?
+Again - I don't care which. I do care why you chose one solution over another one. I do care about how you manage this codebase. It is modular? It is tested? Are you using vagrant? How much is open sourced back to the community? 
 
 ####How do you deal with drift in configuration?
-
+Environment configuration is only as good at the configuration that is actually managed. How do you determine where you have gaps in your CM solution? How do you deal with configuration dift? Do you accept it or periodically rebuild?
