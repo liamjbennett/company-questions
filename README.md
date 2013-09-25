@@ -79,3 +79,5 @@ Again - I don't care which. I do care why you chose one solution over another on
 
 ####How do you deal with drift in configuration?
 Environment configuration is only as good at the configuration that is actually managed. How do you determine where you have gaps in your CM solution? How do you deal with configuration dift? Do you accept it or periodically rebuild?
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/90bce68eacd01971e24bc4ce2b09e434 "githalytics.com")](http://githalytics.com/liamjbennett/company-questions)
