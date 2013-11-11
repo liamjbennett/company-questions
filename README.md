@@ -3,7 +3,7 @@ After having seen several people fumble at the end of the interview to ask quest
 
 This is very much aimed at those of us in Agile/DevOps roles. You may decide to select the a couple to ask at the end of the interview process or you may (if appropriate) ask your employeer for answers on all of them.
 
-I have split this up into 4 sections: Company, Product, Process and Tools - the order is deliberate and based upon the level of importance that I give to each. I will attempt to add useful descriptions to each question so that you can understand the motivation for asking it.
+I have split this up into 4 sections: Company, Product, Process and Tools - the order is deliberate and based upon the level of importance that I give to each. I will attempt to add useful descriptions to each question so that you can understand the motivation for asking it. Other questions, that I am thinking about also be found elsewhere in this repository.
 
 ##Company
 
